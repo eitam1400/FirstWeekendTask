@@ -1,0 +1,32 @@
+body{
+    background-color: black;
+}
+
+#navbar{
+    float:left;
+    width:auto;
+    position:fixed;
+    color:rgb(224, 245, 35);
+    font-weight:900;
+}
+
+#navbar a{
+    color:rgb(224, 245, 35);
+}
+    
+section{
+    color:green;    
+}
+
+
+@media only screen and (min-width: 300px) and (max-width: 800px){
+    
+    body{
+        background-image: radial-gradient(ellipse at top, #e66465, transparent);
+        background-image: radial-gradient(ellipse at bottom, #4d9f0c, transparent);
+    }
+
+    section{
+        color:lightblue;    
+    }
+}
